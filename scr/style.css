@@ -1,0 +1,103 @@
+body{
+        overflow-x: hidden;
+    }
+    .button {
+        height: 250px;
+        width: 250px;
+        border-radius: 15%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #container{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    #speedstars {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe28HQD15t_HReAaQb4ckdxa_O9xuiqwigNQ&s");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #onevone {
+        background-image: url("https://img.utdstc.com/icon/983/22a/98322a3b2be892eed31589906ffd949b68bcccc9a21ba562987965b5ec6bc6de:200");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #coreball{
+        background-image: url("https://1games.io/data/image/game/coreball/banner/coreball.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #bacon{
+        background-image: url("https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=314,height=314,fit=cover,f=auto/8867a78836aa043a03074768650be018/bacon-may-die.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #baseball{
+        background-image:url("baseball_bros.webp");
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    #basketballstars{
+        background-image: url("https://basketball-stars.io/upload/cache/upload/imgs/basketball-stars1-m240x240.jpg");
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    #rooftop{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKY2uliGeNKbqaj4zsKGgQih6z4WKF7mgkew&s");
+        
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    #eggycar{
+        background-image: url("https://static.keygames.com/9/113739/96341/1024x1024/eggy-car.webp");
+        
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    #retro-bowl{
+        background-image: url("RetroBow1.webp");
+        
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    #navname{
+        height: 100%;
+        width: 100vh;
+    }
+    #nav{
+        margin: 0px;
+        padding: 0%;
+        border: 20px;
+        border-color: rgb(187, 77, 77);;
+        height: 20vh;
+        width: 100%;
+        background-color: rgb(187, 77, 77);
+    }
+    #somthing {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color:  rgb(187, 77, 77);
+    }
+    #somthin {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        
+       
+    }
+    #game {
+        font-size: 200%;
+    }

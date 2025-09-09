@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedrock Games</title>
+    <link rel="icon" href="https://assets.wheelhouse.com/media/_solution_logo_03202023_46576647.png">
+    <link rel="stylesheet" href="stlye.css">
+</head>
+<style>
+    body{
+        overflow-x: hidden;
+    }
+    .button {
+        height: 250px;
+        width: 250px;
+        border-radius: 15%;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #container{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    #speedstars {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe28HQD15t_HReAaQb4ckdxa_O9xuiqwigNQ&s");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #onevone {
+        background-image: url("https://img.utdstc.com/icon/983/22a/98322a3b2be892eed31589906ffd949b68bcccc9a21ba562987965b5ec6bc6de:200");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #coreball{
+        background-image: url("https://1games.io/data/image/game/coreball/banner/coreball.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #bacon{
+        background-image: url("https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=314,height=314,fit=cover,f=auto/8867a78836aa043a03074768650be018/bacon-may-die.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #baseball{
+        background-image:url("baseball_bros.webp");
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    #basketballstars{
+        background-image: url("https://basketball-stars.io/upload/cache/upload/imgs/basketball-stars1-m240x240.jpg");
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    #rooftop{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKY2uliGeNKbqaj4zsKGgQih6z4WKF7mgkew&s");
+        
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    #eggycar{
+        background-image: url("https://static.keygames.com/9/113739/96341/1024x1024/eggy-car.webp");
+        
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    #retro-bowl{
+        background-image: url("RetroBow1.webp");
+        
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    #navname{
+        height: 100%;
+        width: 100vh;
+    }
+    #nav{
+        margin: 0px;
+        padding: 0%;
+        border: 20px;
+        border-color: rgb(187, 77, 77);;
+        height: 20vh;
+        width: 100%;
+        background-color: rgb(187, 77, 77);
+    }
+    #somthing {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color:  rgb(187, 77, 77);
+    }
+    #somthin {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        
+       
+    }
+    
+
+
+</style>
+<body>
+    
+    
+   <header>
+       <nav>
+            <div id="navname"></div>
+                <div id="somthing">
+                    
+                    <h1>
+                        Bedrock Games
+                    </h1>
+                    <div id="somthin">
+                        <li id="game"><a href="index.html">Games</a></li>
+                        <br>
+                        <li id=" apps"><a href="apps.html" >Apps</a></li>
+                    </div>
+                </div>
+                    
+            </div>
+        </nav>
+   </header>
+    
+    
+    
+    
+    
+    
+    <div id=" container">
+        <div id="content">
+            
+            <center>
+
+                <h1>
+                    Made by Nyle
+                    <br>
+                    pleas dont give me ISS
+                    <br>
+                    This site is better than Cap_Prime
+                </h1>
+            </center>
+        </div>
+
+          
+
+        
+        
+        <button class="button" id="speedstars" onclick="openGame()" ></button>
+        <button class="button" onclick="onevone()" id="onevone"></button>
+        <button class="button"onclick="coreball()" id="coreball" ></button>
+        <button class="button" onclick="baconmaydie()" id="bacon"></button>
+        <button class="button" id="baseball" onclick="baseballbro()"></button>
+        <button class="button" id="rooftop" onclick="rooftop()"></button>
+        <button class="button" id="eggycar" onclick="eggycar()" ></button>
+        <button class="button" id="retro-bowl" onclick="retrobowl()"></button>
+        <button class="button"></button>
+        <button class="button"></button>
+        <button class="button"></button>
+        <button class="button"></button>
+        <button class="button"></button>
+        <button class="button"></button>
+        <button class="button"></button>
+        
+        
+
+    </div>
+</body>
+
+<script>
+        function onevone() {
+            var win2 = window.open('','_blank','about:blank')
+            var url = "https://1v1.lol/";
+            var iframe = win2.document.createElement('iframe')
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "none";
+            iframe.src = url
+            win2.document.body.appendChild(iframe)
+        }
+        function coreball() {
+            var win2 = window.open('','_blank','about:blank')
+            var url = "https://www.onlinescientificresearch.com/games/coreball/core-ball/index.html"
+            var iframe = win2.document.createElement('iframe')
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "none";
+            iframe.src = url
+            win2.document.body.appendChild(iframe)
+        }
+         function baseballbro() {
+            var win2 = window.open('','_blank','about:blank')
+            var url = "https://iogames.onl/baseball-bros/baseball-bros.embed"
+            var iframe = win2.document.createElement('iframe')
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "none";
+            iframe.src = url
+            win2.document.body.appendChild(iframe)
+        }
+        function baconmaydie() {
+            var win2 = window.open('','_blank','about:blank')
+            var url = "https://bacon-maydie.github.io/file/"
+            var iframe = win2.document.createElement('iframe')
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "none";
+            iframe.src = url
+            win2.document.body.appendChild(iframe)
+        }
+        function basketballstars() {
+            var win2 = window.open('','_blank','about:blank')
+            var url = "https://basketballstarsonline.github.io/file/"
+            var iframe = win2.document.createElement('iframe')
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "none";
+            iframe.src = url
+            win2.document.body.appendChild(iframe)
+        }
+        function openGame() {
+            var win2 = window.open('','_blank','about:blank')
+            var url = "https://speedstars2.io/speed-stars.embed"
+            var iframe = win2.document.createElement('iframe')
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "none";
+            iframe.src = url
+            win2.document.body.appendChild(iframe)
+        }
+        function rooftop() {
+            var win2 = window.open('','_blank','about:blank')
+            var url = "https://rooftop-snipers.github.io/file/"
+            var iframe = win2.document.createElement('iframe')
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "none";
+            iframe.src = url
+            win2.document.body.appendChild(iframe)
+        }
+        function eggycar() {
+            var win2 = window.open('','_blank','about:blank')
+            var url = "https://hva2021.github.io/eggy-car/index.html"
+            var iframe = win2.document.createElement('iframe')
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "none";
+            iframe.src = url
+            win2.document.body.appendChild(iframe)
+        }
+        function retrobowl() {
+            var win2 = window.open('','_blank','about:blank')
+            var url = "https://retrobowl.me/iframe/retro-bowl/latest2.html"
+            var iframe = win2.document.createElement('iframe')
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.border = "none";
+            iframe.src = url
+            win2.document.body.appendChild(iframe)
+        }
+
+
+
+</script>
+</html>
